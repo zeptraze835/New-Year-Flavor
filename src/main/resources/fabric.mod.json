@@ -1,0 +1,31 @@
+{
+	"schemaVersion": 1,
+	"id": "new-year-flavor",
+	"version": "${version}",
+	"name": "New Year Flavor",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"alazeprt"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/new-year-flavor/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.zeptraze.ExampleMod"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.14.8",
+		"minecraft": "~1.16.5",
+		"java": ">=8",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

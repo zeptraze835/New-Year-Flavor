@@ -3,7 +3,7 @@
 	"id": "new-year-flavor",
 	"version": "${version}",
 	"name": "New Year Flavor",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A mod developed based on Minecraft Fabric loader, adding new items and blocks to bring a brand new New Year experience to your game, allowing players to fully experience the festive atmosphere of the New Year in the game",
 	"authors": [
 		"alazeprt"
 	],
@@ -11,19 +11,19 @@
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "LGPL-2.1",
 	"icon": "assets/new-year-flavor/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.zeptraze.ExampleMod"
+			"com.zeptraze.NewYearFlavor"
 		]
 	},
 	"depends": {
 		"fabricloader": ">=0.14.8",
 		"minecraft": "~1.16.5",
 		"java": ">=8",
-		"fabric-api": "*"
+		"fabric": "*"
 	},
 	"suggests": {
 		"another-mod": "*"

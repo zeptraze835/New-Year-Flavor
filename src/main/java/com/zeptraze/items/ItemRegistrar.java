@@ -9,8 +9,8 @@ import net.minecraft.util.registry.Registry;
 import static com.zeptraze.NewYearFlavor.MOD_ID;
 
 public class ItemRegistrar extends Registrar {
-    public static final Item NIAN_BEAST_SCARF = new Item(new FabricItemSettings());
+    public static final Item NIAN_BEAST_SCRAP = new Item(new FabricItemSettings());
     public static void register() {
-        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "nian_beast_scarf"), NIAN_BEAST_SCARF);
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "nian_beast_scrap"), NIAN_BEAST_SCRAP);
     }
 }

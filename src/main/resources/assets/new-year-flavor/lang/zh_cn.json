@@ -1,4 +1,15 @@
 {
   "item.new-year-flavor.nian_beast_scrap": "年兽碎片",
+  "item.new-year-flavor.nian_beast_axe": "年兽斧",
+  "item.new-year-flavor.nian_beast_hoe": "年兽锄",
+  "item.new-year-flavor.nian_beast_sword": "年兽剑",
+  "item.new-year-flavor.nian_beast_boots": "年兽靴子",
+  "item.new-year-flavor.nian_beast_helmet": "年兽头盔",
+  "item.new-year-flavor.nian_beast_shovel": "年兽锹",
+  "item.new-year-flavor.nian_beast_pickaxe": "年兽镐",
+  "item.new-year-flavor.nian_beast_leggings": "年兽护腿",
+  "item.new-year-flavor.nian_beast_chestplate": "年兽胸甲",
+  "item.new-year-flavor.nian_beast_ingot": "年兽锭",
+  "block.new-year-flavor.candlestick": "烛台",
   "itemGroup.new-year-flavor.new_year_flavor": "新年风味"
 }

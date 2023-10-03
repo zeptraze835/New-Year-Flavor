@@ -65,7 +65,7 @@ jar {
 publishing {
 	publications {
 		mavenJava(MavenPublication) {
-			from components.java
+			from components.java	
 		}
 	}
 
@@ -76,8 +76,4 @@ publishing {
 		// The repositories here will be used for publishing your artifact, not for
 		// retrieving dependencies.
 	}
-}
-
-remapJar {
-
 }

@@ -26,6 +26,7 @@ public class ItemRegistrar extends Registrar {
     public static final Item NIAN_BEAST_BOOTS = new ArmorItem(NianArmorMaterial.INSTANCE, EquipmentSlot.FEET, new Item.Settings().fireproof());
     public static final Item NIAN_BEAST_INGOT = new Item(new FabricItemSettings().fireproof());
     public static final Item CANDLESTICK = new BlockItem(BlockRegistrar.CANDLESTICK, new FabricItemSettings().fireproof());
+    public static final Item COUPLETS = new BlockItem(BlockRegistrar.COUPLETS, new FabricItemSettings().fireproof());
     public static void register() {
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "nian_beast_scrap"), NIAN_BEAST_SCRAP);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "nian_beast_ingot"), NIAN_BEAST_INGOT);
@@ -39,5 +40,6 @@ public class ItemRegistrar extends Registrar {
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "nian_beast_leggings"), NIAN_BEAST_LEGGINGS);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "nian_beast_boots"), NIAN_BEAST_BOOTS);
         Registry.register(Registry.ITEM, new Identifier(MOD_ID, "candlestick"), CANDLESTICK);
+        Registry.register(Registry.ITEM, new Identifier(MOD_ID, "couplets"), COUPLETS);
     }
 }

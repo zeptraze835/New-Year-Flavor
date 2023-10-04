@@ -26,6 +26,7 @@ public class Registrar {
                 itemStacks.add(new ItemStack(NIAN_BEAST_CHESTPLATE));
                 itemStacks.add(new ItemStack(NIAN_BEAST_LEGGINGS));
                 itemStacks.add(new ItemStack(NIAN_BEAST_BOOTS));
+                itemStacks.add(new ItemStack(COUPLETS));
                 // itemStacks.add(new ItemStack(CANDLESTICK));
             })
             .build();

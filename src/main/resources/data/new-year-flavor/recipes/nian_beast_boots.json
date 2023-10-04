@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    "W W",
+    "W W"
+  ],
+  "key": {
+    "W": {
+      "item": "new-year-flavor:nian_beast_ingot"
+    }
+  },
+  "result": {
+    "item": "new-year-flavor:nian_beast_boots",
+    "count": 1
+  }
+}

@@ -1,4 +1,4 @@
-package com.zeptraze.utils.items;
+package com.zeptraze.utils.materials;
 
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;

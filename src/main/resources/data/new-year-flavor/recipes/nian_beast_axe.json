@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "WW ",
+    "WR ",
+    " R "
+  ],
+  "key": {
+    "W": {
+      "item": "new-year-flavor:nian_beast_ingot"
+    },
+    "R": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "new-year-flavor:nian_beast_axe",
+    "count": 1
+  }
+}

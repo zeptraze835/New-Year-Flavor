@@ -10,7 +10,7 @@ import net.minecraft.util.Identifier;
 import static com.zeptraze.NewYearFlavor.MOD_ID;
 import static com.zeptraze.items.ItemRegistrar.*;
 
-public abstract class Registrar {
+public class Registrar {
     public static final ItemGroup NEW_YEAR_FLAVOR = FabricItemGroupBuilder
             .create(new Identifier(MOD_ID, "new_year_flavor"))
             .icon(NIAN_BEAST_SCRAP::getDefaultStack)

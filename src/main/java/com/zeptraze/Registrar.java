@@ -8,6 +8,9 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.util.Identifier;
 
 import static com.zeptraze.NewYearFlavor.MOD_ID;
+import static com.zeptraze.blocks.BlockRegistrar.COUPLETS;
+import static com.zeptraze.blocks.BlockRegistrar.GOLD_RIBBON;
+import static com.zeptraze.blocks.BlockRegistrar.RED_RIBBON;
 import static com.zeptraze.items.ItemRegistrar.*;
 
 public class Registrar {
@@ -27,6 +30,8 @@ public class Registrar {
                 itemStacks.add(new ItemStack(NIAN_BEAST_LEGGINGS));
                 itemStacks.add(new ItemStack(NIAN_BEAST_BOOTS));
                 itemStacks.add(new ItemStack(COUPLETS));
+                itemStacks.add(new ItemStack(RED_RIBBON));
+                itemStacks.add(new ItemStack(GOLD_RIBBON));
                 // itemStacks.add(new ItemStack(CANDLESTICK));
             })
             .build();

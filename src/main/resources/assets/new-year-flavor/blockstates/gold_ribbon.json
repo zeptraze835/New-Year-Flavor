@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "new-year-flavor:block/gold_ribbon", "uvlock": true },
+    "facing=east":  { "model": "new-year-flavor:block/gold_ribbon", "y":  90, "uvlock": true },
+    "facing=south": { "model": "new-year-flavor:block/gold_ribbon", "y": 180, "uvlock": true },
+    "facing=west":  { "model": "new-year-flavor:block/gold_ribbon", "y": 270, "uvlock": true }
+  }
+}
